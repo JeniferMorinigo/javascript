@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Productos disponibles</h1>
+    <div class="productos">
+      <div class="producto">
+        <h2>Caño 1/4</h2>
+        <p>Precio: $30000</p>
+        <button onclick="addToCart(30000)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <h2>Caño 3/8</h2>
+        <p>Precio: $45000</p>
+        <button onclick="addToCart(45000)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <h2>CAÑO 1/2</h2>
+        <p>Precio: $6000</p>
+        <button onclick="addToCart(60000)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <h2>Caño 5/8</h2>
+        <p>Precio: $75000</p>
+        <button onclick="addToCart(75000)">Agregar al carrito</button>
+      </div>
+    </div>
+
+    <h1>Carrito de Compras</h1>
+    <div id="cart"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
